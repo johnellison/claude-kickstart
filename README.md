@@ -7,13 +7,49 @@
 
 ---
 
+## 🤔 Wait, What's Claude Code?
+
+**New to AI coding?** Claude Code is an AI assistant by Anthropic that helps you build apps through conversation. Think of it like having an expert developer on your team who never sleeps.
+
+**The problem:** Every time you start a new chat, you have to re-explain your entire project—"I'm using React", "I use Tailwind", "Don't write tests for everything", etc. It's exhausting.
+
+**This starter kit solves that:** You set up your project rules ONCE, and Claude Code remembers them forever. No more repeating yourself.
+
+**New to Claude Code?** [Get started here](https://claude.com/claude-code) (free trial available!)
+
+---
+
 ## 🎯 What Is This?
 
-Claude Kickstart is a battle-tested template system that transforms your Product Requirements Document (PRD) into a production-ready `CLAUDE.md` configuration—**in under 5 minutes**.
+Claude Kickstart is a template system that transforms your app idea into a `CLAUDE.md` configuration file—**in under 5 minutes**.
 
-No more explaining your tech stack in every AI conversation. No more repeated code patterns. No more sprawling test suites that slow you down.
+Think of `CLAUDE.md` as a cheat sheet that teaches Claude Code about YOUR specific project.
 
-**Just paste your PRD, get your config, and start shipping.**
+**What you get:**
+- ✅ No more explaining your tech stack in every conversation
+- ✅ No more repeated code patterns
+- ✅ Claude builds consistently (not random AI slop)
+- ✅ Ship faster with fewer bugs
+
+**Just describe your app idea, get your config, and start building.**
+
+---
+
+## ✅ What You Need Before Starting
+
+**Absolute requirements:**
+- [ ] Claude Code installed ([Get it here](https://claude.com/claude-code))
+- [ ] An app idea (doesn't need to be fancy!)
+- [ ] 20 minutes of focused time
+
+**Optional but helpful:**
+- [ ] Basic idea of what you want to build
+- [ ] Favorite apps you want to copy features from (inspiration!)
+
+**Don't need:**
+- ❌ Coding experience (Claude Code handles that)
+- ❌ A detailed plan (we'll help you create one)
+- ❌ To know which tools to use (Claude will recommend)
 
 ---
 
@@ -52,7 +88,45 @@ Works with:
 
 ---
 
-## ⚡ Quick Start (5 Minutes)
+## 📖 Beginner-Friendly Glossary
+
+**Not sure what these terms mean? Here's the translation:**
+
+- **PRD (Product Requirements Document)** - A simple doc that describes what your app does. Think: "I want to build a task manager with a timer." That's a PRD!
+
+- **Tech Stack** - The tools you use to build (React, Firebase, Tailwind, etc.). Don't know yet? That's fine—Claude will help you pick!
+
+- **CLAUDE.md** - A file that teaches Claude Code about YOUR project (like a cheat sheet)
+
+- **MVP (Minimum Viable Product)** - The simplest version of your app that actually works
+
+- **Component** - A reusable piece of UI (like a button you use everywhere)
+
+- **Sub-Agent** - Think of these like different AI teammates with specific jobs (one builds, one checks quality, one explores code)
+
+**Still confused?** Open an [issue](https://github.com/johnellison/claude-kickstart/issues) and we'll help!
+
+---
+
+## 🧭 Which Path Should You Take?
+
+**Choose based on your experience:**
+
+### 🌱 Complete Beginner (Never coded before)
+
+**Start here:** [Simple PRD Template](./PRD_TEMPLATE_SIMPLE.md)
+- Only 10 questions
+- All have examples
+- Takes 10 minutes
+- Skip what you don't know
+
+**Then:** Use [Setup Prompt](./SETUP_PROMPT.md) to generate your config
+
+**Time:** 20 minutes total
+
+### ⚡ Quick Start (5 Minutes)
+
+**If you know what you're building:**
 
 ### Step 1: Copy the Setup Prompt
 
@@ -95,7 +169,8 @@ Every conversation with Claude Code now follows your project's rules:
 | [`CUSTOMIZATION_GUIDE.md`](./CUSTOMIZATION_GUIDE.md) | Step-by-step customization instructions | Manual setup, learning the system |
 | [`MVP_CONSTRAINTS.md`](./MVP_CONSTRAINTS.md) | Lean testing strategy | Pre-PMF products, tight timelines |
 | [`SETUP_PROMPT.md`](./SETUP_PROMPT.md) | Copy-paste prompt for generating CLAUDE.md | Quick setup with PRD |
-| [`PRD_TEMPLATE.md`](./PRD_TEMPLATE.md) | PRD template to organize your ideas | Starting from scratch |
+| [`PRD_TEMPLATE.md`](./PRD_TEMPLATE.md) | PRD template to organize your ideas | Detailed planning |
+| [`PRD_TEMPLATE_SIMPLE.md`](./PRD_TEMPLATE_SIMPLE.md) | Simple PRD (10 questions) | **Start here if beginner** |
 | [`SUB_AGENTS.md`](./SUB_AGENTS.md) | Pre-built sub-agent configurations | Setting up your AI team |
 
 ---

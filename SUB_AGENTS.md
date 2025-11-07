@@ -1,4 +1,46 @@
-# Sub-Agent Configurations for Claude Code
+# Sub-Agents for Claude Code
+
+## 🌱 For Beginners: Start Here
+
+**TL;DR:** Sub-agents are like having different AI teammates. Each one has a specific job.
+
+**You don't need to understand this deeply right now.** Just use these two to start:
+
+### 🔨 Builder Agent (Use This 90% of the Time)
+
+**What it does:** Builds your features
+
+**When to use:** Every time you want to add something to your app
+
+**How to use:** Just ask Claude to build something. It automatically calls this agent.
+
+**Example:**
+```
+You: "Build a login page with email and password"
+Claude: [Automatically uses Builder agent to create it]
+```
+
+### ✅ Checker Agent (Use Before Finishing)
+
+**What it does:** Makes sure everything works together
+
+**When to use:** After building 3-5 features, or before calling your app "done"
+
+**How to use:** Tell Claude: "Check if everything works together"
+
+**Example:**
+```
+You: "I've built the login page, signup page, and home page. Check if they work together."
+Claude: [Uses Checker agent to verify integration]
+```
+
+**That's all you need for now!** The rest of this guide is for advanced users.
+
+---
+
+## 🎓 Advanced: Complete Sub-Agent Guide
+
+Ready to level up? Here's the full breakdown of all 5 sub-agents and when to use them.
 
 Sub-agents are specialized AI agents that handle specific responsibilities in your development workflow. Think of them as different engineers on your team—each with a specific role.
 
@@ -10,7 +52,7 @@ Sub-agents are specialized AI agents that handle specific responsibilities in yo
 
 ---
 
-## Quick Start
+## Quick Reference
 
 Claude Code comes with several built-in sub-agents. Here are the configurations I use for most projects:
 
