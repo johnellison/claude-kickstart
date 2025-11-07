@@ -96,6 +96,7 @@ Every conversation with Claude Code now follows your project's rules:
 | [`MVP_CONSTRAINTS.md`](./MVP_CONSTRAINTS.md) | Lean testing strategy | Pre-PMF products, tight timelines |
 | [`SETUP_PROMPT.md`](./SETUP_PROMPT.md) | Copy-paste prompt for generating CLAUDE.md | Quick setup with PRD |
 | [`PRD_TEMPLATE.md`](./PRD_TEMPLATE.md) | PRD template to organize your ideas | Starting from scratch |
+| [`SUB_AGENTS.md`](./SUB_AGENTS.md) | Pre-built sub-agent configurations | Setting up your AI team |
 
 ---
 
